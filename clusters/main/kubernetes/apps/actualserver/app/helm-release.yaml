@@ -33,8 +33,3 @@ spec:
     # and/or disable its service
     global:
       stopAll: false
-    service:
-      dns:
-        externalTrafficPolicy: Local
-        loadBalancerIP: ${BLOCKY_IP}
-        type: LoadBalancer
