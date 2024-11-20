@@ -70,4 +70,4 @@ spec:
 
     cnpg:
       main:
-        enabled: false
+        enabled: true
